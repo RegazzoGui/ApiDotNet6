@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Guilherme\\Desktop\\ProjetoApi\\ApiDotNet6\\ApiDotNet6.Api\\ApiDotNet6.Api.csproj": {}
+    "C:\\Users\\Guilherme\\Desktop\\ApiDotNet6\\ApiDotNet6.Api\\ApiDotNet6.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Guilherme\\Desktop\\ProjetoApi\\ApiDotNet6\\Api.DotNet6.Domain\\Api.DotNet6.Domain.csproj": {
+    "C:\\Users\\Guilherme\\Desktop\\ApiDotNet6\\Api.DotNet6.Domain\\Api.DotNet6.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Guilherme\\Desktop\\ProjetoApi\\ApiDotNet6\\Api.DotNet6.Domain\\Api.DotNet6.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Guilherme\\Desktop\\ApiDotNet6\\Api.DotNet6.Domain\\Api.DotNet6.Domain.csproj",
         "projectName": "Api.DotNet6.Domain",
-        "projectPath": "C:\\Users\\Guilherme\\Desktop\\ProjetoApi\\ApiDotNet6\\Api.DotNet6.Domain\\Api.DotNet6.Domain.csproj",
+        "projectPath": "C:\\Users\\Guilherme\\Desktop\\ApiDotNet6\\Api.DotNet6.Domain\\Api.DotNet6.Domain.csproj",
         "packagesPath": "C:\\Users\\Guilherme\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Guilherme\\Desktop\\ProjetoApi\\ApiDotNet6\\Api.DotNet6.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Guilherme\\Desktop\\ApiDotNet6\\Api.DotNet6.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -43,6 +43,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.2, )"
@@ -76,14 +80,14 @@
         }
       }
     },
-    "C:\\Users\\Guilherme\\Desktop\\ProjetoApi\\ApiDotNet6\\ApiDotNet6.Api\\ApiDotNet6.Api.csproj": {
+    "C:\\Users\\Guilherme\\Desktop\\ApiDotNet6\\ApiDotNet6.Api\\ApiDotNet6.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Guilherme\\Desktop\\ProjetoApi\\ApiDotNet6\\ApiDotNet6.Api\\ApiDotNet6.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Guilherme\\Desktop\\ApiDotNet6\\ApiDotNet6.Api\\ApiDotNet6.Api.csproj",
         "projectName": "ApiDotNet6.Api",
-        "projectPath": "C:\\Users\\Guilherme\\Desktop\\ProjetoApi\\ApiDotNet6\\ApiDotNet6.Api\\ApiDotNet6.Api.csproj",
+        "projectPath": "C:\\Users\\Guilherme\\Desktop\\ApiDotNet6\\ApiDotNet6.Api\\ApiDotNet6.Api.csproj",
         "packagesPath": "C:\\Users\\Guilherme\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Guilherme\\Desktop\\ProjetoApi\\ApiDotNet6\\ApiDotNet6.Api\\obj\\",
+        "outputPath": "C:\\Users\\Guilherme\\Desktop\\ApiDotNet6\\ApiDotNet6.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -103,8 +107,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Guilherme\\Desktop\\ProjetoApi\\ApiDotNet6\\ApiDotNet6.Infra.IoC\\ApiDotNet6.Infra.IoC.csproj": {
-                "projectPath": "C:\\Users\\Guilherme\\Desktop\\ProjetoApi\\ApiDotNet6\\ApiDotNet6.Infra.IoC\\ApiDotNet6.Infra.IoC.csproj"
+              "C:\\Users\\Guilherme\\Desktop\\ApiDotNet6\\ApiDotNet6.Infra.IoC\\ApiDotNet6.Infra.IoC.csproj": {
+                "projectPath": "C:\\Users\\Guilherme\\Desktop\\ApiDotNet6\\ApiDotNet6.Infra.IoC\\ApiDotNet6.Infra.IoC.csproj"
               }
             }
           }
@@ -119,6 +123,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.2, )"
@@ -159,14 +167,14 @@
         }
       }
     },
-    "C:\\Users\\Guilherme\\Desktop\\ProjetoApi\\ApiDotNet6\\ApiDotNet6.Application\\ApiDotNet6.Application.csproj": {
+    "C:\\Users\\Guilherme\\Desktop\\ApiDotNet6\\ApiDotNet6.Application\\ApiDotNet6.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Guilherme\\Desktop\\ProjetoApi\\ApiDotNet6\\ApiDotNet6.Application\\ApiDotNet6.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Guilherme\\Desktop\\ApiDotNet6\\ApiDotNet6.Application\\ApiDotNet6.Application.csproj",
         "projectName": "ApiDotNet6.Application",
-        "projectPath": "C:\\Users\\Guilherme\\Desktop\\ProjetoApi\\ApiDotNet6\\ApiDotNet6.Application\\ApiDotNet6.Application.csproj",
+        "projectPath": "C:\\Users\\Guilherme\\Desktop\\ApiDotNet6\\ApiDotNet6.Application\\ApiDotNet6.Application.csproj",
         "packagesPath": "C:\\Users\\Guilherme\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Guilherme\\Desktop\\ProjetoApi\\ApiDotNet6\\ApiDotNet6.Application\\obj\\",
+        "outputPath": "C:\\Users\\Guilherme\\Desktop\\ApiDotNet6\\ApiDotNet6.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -186,8 +194,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Guilherme\\Desktop\\ProjetoApi\\ApiDotNet6\\Api.DotNet6.Domain\\Api.DotNet6.Domain.csproj": {
-                "projectPath": "C:\\Users\\Guilherme\\Desktop\\ProjetoApi\\ApiDotNet6\\Api.DotNet6.Domain\\Api.DotNet6.Domain.csproj"
+              "C:\\Users\\Guilherme\\Desktop\\ApiDotNet6\\Api.DotNet6.Domain\\Api.DotNet6.Domain.csproj": {
+                "projectPath": "C:\\Users\\Guilherme\\Desktop\\ApiDotNet6\\Api.DotNet6.Domain\\Api.DotNet6.Domain.csproj"
               }
             }
           }
@@ -202,6 +210,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.2, )"
@@ -235,14 +247,14 @@
         }
       }
     },
-    "C:\\Users\\Guilherme\\Desktop\\ProjetoApi\\ApiDotNet6\\ApiDotNet6.Infra.Data\\ApiDotNet6.Infra.Data.csproj": {
+    "C:\\Users\\Guilherme\\Desktop\\ApiDotNet6\\ApiDotNet6.Infra.Data\\ApiDotNet6.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Guilherme\\Desktop\\ProjetoApi\\ApiDotNet6\\ApiDotNet6.Infra.Data\\ApiDotNet6.Infra.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Guilherme\\Desktop\\ApiDotNet6\\ApiDotNet6.Infra.Data\\ApiDotNet6.Infra.Data.csproj",
         "projectName": "ApiDotNet6.Infra.Data",
-        "projectPath": "C:\\Users\\Guilherme\\Desktop\\ProjetoApi\\ApiDotNet6\\ApiDotNet6.Infra.Data\\ApiDotNet6.Infra.Data.csproj",
+        "projectPath": "C:\\Users\\Guilherme\\Desktop\\ApiDotNet6\\ApiDotNet6.Infra.Data\\ApiDotNet6.Infra.Data.csproj",
         "packagesPath": "C:\\Users\\Guilherme\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Guilherme\\Desktop\\ProjetoApi\\ApiDotNet6\\ApiDotNet6.Infra.Data\\obj\\",
+        "outputPath": "C:\\Users\\Guilherme\\Desktop\\ApiDotNet6\\ApiDotNet6.Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -262,8 +274,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Guilherme\\Desktop\\ProjetoApi\\ApiDotNet6\\Api.DotNet6.Domain\\Api.DotNet6.Domain.csproj": {
-                "projectPath": "C:\\Users\\Guilherme\\Desktop\\ProjetoApi\\ApiDotNet6\\Api.DotNet6.Domain\\Api.DotNet6.Domain.csproj"
+              "C:\\Users\\Guilherme\\Desktop\\ApiDotNet6\\Api.DotNet6.Domain\\Api.DotNet6.Domain.csproj": {
+                "projectPath": "C:\\Users\\Guilherme\\Desktop\\ApiDotNet6\\Api.DotNet6.Domain\\Api.DotNet6.Domain.csproj"
               }
             }
           }
@@ -278,6 +290,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.2, )"
@@ -311,14 +327,14 @@
         }
       }
     },
-    "C:\\Users\\Guilherme\\Desktop\\ProjetoApi\\ApiDotNet6\\ApiDotNet6.Infra.IoC\\ApiDotNet6.Infra.IoC.csproj": {
+    "C:\\Users\\Guilherme\\Desktop\\ApiDotNet6\\ApiDotNet6.Infra.IoC\\ApiDotNet6.Infra.IoC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Guilherme\\Desktop\\ProjetoApi\\ApiDotNet6\\ApiDotNet6.Infra.IoC\\ApiDotNet6.Infra.IoC.csproj",
+        "projectUniqueName": "C:\\Users\\Guilherme\\Desktop\\ApiDotNet6\\ApiDotNet6.Infra.IoC\\ApiDotNet6.Infra.IoC.csproj",
         "projectName": "ApiDotNet6.Infra.IoC",
-        "projectPath": "C:\\Users\\Guilherme\\Desktop\\ProjetoApi\\ApiDotNet6\\ApiDotNet6.Infra.IoC\\ApiDotNet6.Infra.IoC.csproj",
+        "projectPath": "C:\\Users\\Guilherme\\Desktop\\ApiDotNet6\\ApiDotNet6.Infra.IoC\\ApiDotNet6.Infra.IoC.csproj",
         "packagesPath": "C:\\Users\\Guilherme\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Guilherme\\Desktop\\ProjetoApi\\ApiDotNet6\\ApiDotNet6.Infra.IoC\\obj\\",
+        "outputPath": "C:\\Users\\Guilherme\\Desktop\\ApiDotNet6\\ApiDotNet6.Infra.IoC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -338,14 +354,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Guilherme\\Desktop\\ProjetoApi\\ApiDotNet6\\Api.DotNet6.Domain\\Api.DotNet6.Domain.csproj": {
-                "projectPath": "C:\\Users\\Guilherme\\Desktop\\ProjetoApi\\ApiDotNet6\\Api.DotNet6.Domain\\Api.DotNet6.Domain.csproj"
+              "C:\\Users\\Guilherme\\Desktop\\ApiDotNet6\\Api.DotNet6.Domain\\Api.DotNet6.Domain.csproj": {
+                "projectPath": "C:\\Users\\Guilherme\\Desktop\\ApiDotNet6\\Api.DotNet6.Domain\\Api.DotNet6.Domain.csproj"
               },
-              "C:\\Users\\Guilherme\\Desktop\\ProjetoApi\\ApiDotNet6\\ApiDotNet6.Application\\ApiDotNet6.Application.csproj": {
-                "projectPath": "C:\\Users\\Guilherme\\Desktop\\ProjetoApi\\ApiDotNet6\\ApiDotNet6.Application\\ApiDotNet6.Application.csproj"
+              "C:\\Users\\Guilherme\\Desktop\\ApiDotNet6\\ApiDotNet6.Application\\ApiDotNet6.Application.csproj": {
+                "projectPath": "C:\\Users\\Guilherme\\Desktop\\ApiDotNet6\\ApiDotNet6.Application\\ApiDotNet6.Application.csproj"
               },
-              "C:\\Users\\Guilherme\\Desktop\\ProjetoApi\\ApiDotNet6\\ApiDotNet6.Infra.Data\\ApiDotNet6.Infra.Data.csproj": {
-                "projectPath": "C:\\Users\\Guilherme\\Desktop\\ProjetoApi\\ApiDotNet6\\ApiDotNet6.Infra.Data\\ApiDotNet6.Infra.Data.csproj"
+              "C:\\Users\\Guilherme\\Desktop\\ApiDotNet6\\ApiDotNet6.Infra.Data\\ApiDotNet6.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\Guilherme\\Desktop\\ApiDotNet6\\ApiDotNet6.Infra.Data\\ApiDotNet6.Infra.Data.csproj"
               }
             }
           }
@@ -360,6 +376,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.2, )"

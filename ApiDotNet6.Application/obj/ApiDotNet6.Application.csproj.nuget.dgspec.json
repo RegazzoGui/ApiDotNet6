@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Guilherme\\Desktop\\ProjetoApi\\ApiDotNet6\\ApiDotNet6.Application\\ApiDotNet6.Application.csproj": {}
+    "C:\\Users\\Guilherme\\Desktop\\ApiDotNet6\\ApiDotNet6.Application\\ApiDotNet6.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Guilherme\\Desktop\\ProjetoApi\\ApiDotNet6\\Api.DotNet6.Domain\\Api.DotNet6.Domain.csproj": {
+    "C:\\Users\\Guilherme\\Desktop\\ApiDotNet6\\Api.DotNet6.Domain\\Api.DotNet6.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Guilherme\\Desktop\\ProjetoApi\\ApiDotNet6\\Api.DotNet6.Domain\\Api.DotNet6.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Guilherme\\Desktop\\ApiDotNet6\\Api.DotNet6.Domain\\Api.DotNet6.Domain.csproj",
         "projectName": "Api.DotNet6.Domain",
-        "projectPath": "C:\\Users\\Guilherme\\Desktop\\ProjetoApi\\ApiDotNet6\\Api.DotNet6.Domain\\Api.DotNet6.Domain.csproj",
+        "projectPath": "C:\\Users\\Guilherme\\Desktop\\ApiDotNet6\\Api.DotNet6.Domain\\Api.DotNet6.Domain.csproj",
         "packagesPath": "C:\\Users\\Guilherme\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Guilherme\\Desktop\\ProjetoApi\\ApiDotNet6\\Api.DotNet6.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Guilherme\\Desktop\\ApiDotNet6\\Api.DotNet6.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -43,6 +43,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.2, )"
@@ -76,14 +80,14 @@
         }
       }
     },
-    "C:\\Users\\Guilherme\\Desktop\\ProjetoApi\\ApiDotNet6\\ApiDotNet6.Application\\ApiDotNet6.Application.csproj": {
+    "C:\\Users\\Guilherme\\Desktop\\ApiDotNet6\\ApiDotNet6.Application\\ApiDotNet6.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Guilherme\\Desktop\\ProjetoApi\\ApiDotNet6\\ApiDotNet6.Application\\ApiDotNet6.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Guilherme\\Desktop\\ApiDotNet6\\ApiDotNet6.Application\\ApiDotNet6.Application.csproj",
         "projectName": "ApiDotNet6.Application",
-        "projectPath": "C:\\Users\\Guilherme\\Desktop\\ProjetoApi\\ApiDotNet6\\ApiDotNet6.Application\\ApiDotNet6.Application.csproj",
+        "projectPath": "C:\\Users\\Guilherme\\Desktop\\ApiDotNet6\\ApiDotNet6.Application\\ApiDotNet6.Application.csproj",
         "packagesPath": "C:\\Users\\Guilherme\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Guilherme\\Desktop\\ProjetoApi\\ApiDotNet6\\ApiDotNet6.Application\\obj\\",
+        "outputPath": "C:\\Users\\Guilherme\\Desktop\\ApiDotNet6\\ApiDotNet6.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -103,8 +107,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Guilherme\\Desktop\\ProjetoApi\\ApiDotNet6\\Api.DotNet6.Domain\\Api.DotNet6.Domain.csproj": {
-                "projectPath": "C:\\Users\\Guilherme\\Desktop\\ProjetoApi\\ApiDotNet6\\Api.DotNet6.Domain\\Api.DotNet6.Domain.csproj"
+              "C:\\Users\\Guilherme\\Desktop\\ApiDotNet6\\Api.DotNet6.Domain\\Api.DotNet6.Domain.csproj": {
+                "projectPath": "C:\\Users\\Guilherme\\Desktop\\ApiDotNet6\\Api.DotNet6.Domain\\Api.DotNet6.Domain.csproj"
               }
             }
           }
@@ -119,6 +123,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.2, )"

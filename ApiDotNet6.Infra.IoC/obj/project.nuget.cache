@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "3qvNVr0hLfipXxeZaM5LbKmV4Fsi5mchdg1zjr0U6UvryEBIjxjw5G5G00zg35nUUhJCgPRPe0ZQmnqRhgMYvQ==",
+  "dgSpecHash": "o0GRfS3OGBz0XMNdcbX93SOjVOiKRQyUtV0QcHJOh/yaJlmwy87QiDrAicBLjCllCjDsXkKDSq59gCVLuM4s1w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Guilherme\\Desktop\\ProjetoApi\\ApiDotNet6\\ApiDotNet6.Infra.IoC\\ApiDotNet6.Infra.IoC.csproj",
+  "projectFilePath": "C:\\Users\\Guilherme\\Desktop\\ApiDotNet6\\ApiDotNet6.Infra.IoC\\ApiDotNet6.Infra.IoC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Guilherme\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\Guilherme\\.nuget\\packages\\fluentvalidation\\11.5.0\\fluentvalidation.11.5.0.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.1\\microsoft.data.sqlclient.5.0.1.nupkg.sha512",
