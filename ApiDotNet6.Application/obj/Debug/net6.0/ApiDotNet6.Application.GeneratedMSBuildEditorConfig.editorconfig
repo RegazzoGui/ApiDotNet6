@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ApiDotNet6.Application
-build_property.ProjectDir = C:\Users\Guilherme\Desktop\ApiDotNet6\ApiDotNet6.Application\
+build_property.ProjectDir = C:\Users\guiregazzo\Desktop\Api\ApiDotNet6\ApiDotNet6.Application\
